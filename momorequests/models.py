@@ -15,4 +15,4 @@ class MomoRequest(models.Model):
 	updated_at = models.DateTimeField(auto_now=True)
 
 	def __str__(self):
-		return self.auth_status
+		return self.party_id
