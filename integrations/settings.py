@@ -120,6 +120,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+DB_FETCH_LIMIT = 10
+
 try:
     from .local_settings import *
 except ImportError:
